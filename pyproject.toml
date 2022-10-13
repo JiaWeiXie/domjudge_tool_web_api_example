@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "domjudge-tool-web-api-example"
+version = "0.1.0"
+description = ""
+authors = ["jasonxie <x5758x@gmail.com>"]
+readme = "README.md"
+packages = [{include = "domjudge_tool_web_api_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.28.1"
+environs = "^9.5.0"
+tqdm = "^4.64.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
